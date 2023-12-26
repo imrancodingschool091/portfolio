@@ -378,56 +378,45 @@ h3{
     
     align-items: center;
     justify-content: space-around; 
+   
     
 
    
 }
 
-.col1{
-    display: flex;
-    
-    
-}
+.mid{
+    padding: 0 2.4rem;
+    margin-top: 2.2rem;
 
-.data{
-    margin-right: .5rem;
+    margin-bottom: 1.5rem;
 }
- .data .icon{
-    color: rgb(216, 200, 200);
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
-}
-.infrmation h2{
-    font-size: .9rem;
-    color: darkslategrey;
-    padding: 0 1.5rem;
-  
-    width: 100%;
-    display: flex;
-    align-items: center;
-    
-    
+.mid h2{
+    font-size: 1.1rem;
+    color:#30336b ;
+   
+
 
 }
-.infrmation p{
-    margin-top: .5rem;
+.mid p{
     font-size: 0.5rem;
-    color: rgb(216, 200, 200);
-    padding: 0 1.5rem;
-    font-weight: 800;
-    margin-bottom: 2.8rem;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-   
-    width: 100%;
+    margin-top: .5rem;
 }
 
+
+    
+    
 
 .icon{
-    color: rgb(216, 200, 200);
+    color: #7ed6df;
+    font-size: 1.5rem;
+    align-items: center;
 }
+
+    
+    
+
+
+
 
 
 
