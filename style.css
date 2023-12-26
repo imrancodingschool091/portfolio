@@ -395,13 +395,17 @@ h3{
  .data .icon{
     color: rgb(216, 200, 200);
     margin-top: 1rem;
+    display: flex;
+    align-items: center;
 }
 .infrmation h2{
     font-size: .9rem;
     color: darkslategrey;
-    padding: 0 2.5rem;
+    padding: 0 1.5rem;
   
     width: 100%;
+    display: flex;
+    align-items: center;
     
     
 
@@ -410,9 +414,12 @@ h3{
     margin-top: .5rem;
     font-size: 0.5rem;
     color: rgb(216, 200, 200);
-    padding: 0 2.3rem;
+    padding: 0 1.5rem;
     font-weight: 800;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2.8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
    
     width: 100%;
 }
