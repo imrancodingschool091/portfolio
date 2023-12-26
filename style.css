@@ -7,7 +7,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Crimson Pro', serif;
+    font-family: 'Open Sans', Arial, sans-serif;
+
     text-decoration: none;
 }
 img{
@@ -264,7 +265,7 @@ h3{
     background-color: white;
     border-radius: .3rem;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
-    transition: all 1s;
+    transition-duration: .5s;
 }
 
 .listIteam .content{
@@ -336,8 +337,8 @@ h3{
     margin: .5rem;
     padding: 5px 1px;
     font-size: .8rem;
-    color: darkslategrey;
-    background-color: #bbbcbf;
+    color: #7ed6df;
+   background:#30336b ;
     border: 0;
     outline: 0;
     border-radius: .3rem;
@@ -376,6 +377,10 @@ h3{
     display: flex;
     
     align-items: center;
+    justify-content: space-around; 
+    
+
+   
 }
 
 .col1{
@@ -385,21 +390,37 @@ h3{
 }
 
 .data{
-    margin-right: 1rem;
+    margin-right: .5rem;
+}
+ .data .icon{
+    color: rgb(216, 200, 200);
+    margin-top: 1rem;
 }
 .infrmation h2{
-    font-size: 1rem;
-    color: rgb(216, 200, 200);
+    font-size: .9rem;
+    color: darkslategrey;
+    padding: 0 2.5rem;
+  
+    width: 100%;
     
     
 
 }
 .infrmation p{
-  
-    font-size: .6rem;
-    color: rgb(233, 220, 220);
+    margin-top: .5rem;
+    font-size: 0.5rem;
+    color: rgb(216, 200, 200);
+    padding: 0 2.3rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+   
+    width: 100%;
 }
 
+
+.icon{
+    color: rgb(216, 200, 200);
+}
 
 
 
