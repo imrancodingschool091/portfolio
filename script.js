@@ -1,15 +1,27 @@
 let bodycon=document.querySelector("body");
+let boxall = document.querySelectorAll(".white"); // Use ".white" for class selection
+
+
 
  function DarkMode () {
-    bodycon.style.backgroundColor='black'
+ 
+  boxall.forEach((e) => {
+    e.style.backgroundColor = 'black'; 
+    e.style.Border='0'
+
+  });
+  
     
  }
 
 
  function DayMode(){
 
-    bodycon.style.backgroundColor='darkgrey'
+  boxall.forEach((e) => {
+    e.style.backgroundColor = 'white'; 
+    e.style.Border='0'
 
+  });
     console.log('button is working')
 
  }

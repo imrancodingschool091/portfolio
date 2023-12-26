@@ -18,8 +18,13 @@ a{
     cursor: pointer;
 }
 body{
-    background-color: darkgrey;
+    background: #101010;
+  
 }
+/* .white{
+    background-color: white;
+} */
+
 
 
 
@@ -30,12 +35,14 @@ body{
 nav{
     padding: 10px 2%;
     justify-content: space-between;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(173, 171, 171, 0.2);
     position: sticky;
     top: 0;
     z-index: 10;
-    background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-
+    /* background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+   
+    background: #090909;
+  
 }
 
 
@@ -98,7 +105,7 @@ nav{
     z-index: 100;
     font-size: 1.5rem;
     margin-top: 1rem;
-     color: #301996;
+     color: #21ce2c;
 
    
 }
@@ -109,13 +116,16 @@ nav{
 
 
 .sideBar{
+    background: #0a0a0a;
     width: 20%;
     position: fixed;
     padding: 1rem 1rem;
-    height: 85vh;
+    height: 95vh;
     margin: 0.5rem 0.5rem;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
-    border: 1px solid rgb(181, 169, 169);
+   
+    box-shadow: 0 0 20px rgba(173, 171, 171, 0.2);
+    border-radius: .4rem;
+
    
 }
 .sideBarIteam {
@@ -262,10 +272,13 @@ h3{
    row-gap: 1rem;
 }
 .listIteam .box{
-    background-color: white;
+    /* background-color: white; */
     border-radius: .3rem;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 20px rgba(173, 171, 171, 0.2);
+
     transition-duration: .5s;
+    background: #0a0a0a;
+    
 }
 
 .listIteam .content{
@@ -311,12 +324,13 @@ h3{
 }
 
 .skills-box{
-    border: 1px solid rgb(190, 174, 174);
+    border: 1px solid rgb(34, 34, 34);
     padding: .5rem;
     margin-top: 1rem;
-    box-shadow: 0 0 15px rgb(168, 159, 159);
+    box-shadow: 0 0 20px rgb(28, 27, 27);
     border-radius: .3rem;
-    background-color: rgb(240, 230, 230);
+    /* background-color: rgb(240, 230, 230); */
+    background: #0a0a0a;
     height: 35vh;
 }
 .skills-box h5{
@@ -335,13 +349,13 @@ h3{
 
 .skills-content button{
     margin: .5rem;
-    padding: 5px 1px;
-    font-size: .8rem;
-    color: #7ed6df;
-   background:#30336b ;
+    padding: 6px 1px;
+    font-size: .6rem;
+    color: #e1e5e5;
+   background:#282829 ;
     border: 0;
     outline: 0;
-    border-radius: .3rem;
+    border-radius: 1.9rem;
     font-weight: 600;
     
     
@@ -350,7 +364,7 @@ h3{
 .moreProjectBox{
   
 
-    border: 1px solid rgb(190, 174, 174);
+   
     padding: .5rem;
     margin-top: 1rem;
     box-shadow: 0 0 15px rgb(26, 25, 25);
@@ -365,10 +379,16 @@ h3{
     flex-direction: column;
     margin: 2rem;
 }
+.moreProjectBox{
+    background: #0a0a0a;
+    box-shadow: 0 0 10px rgb(26, 25, 25);
+
+
+}
 .moreProjectBox h5{
     margin-top: .7rem;
     font-size: 1.2rem;
-    color: rgb(85, 84, 84);
+    color: rgb(255, 252, 252);
     margin-bottom: .3rem;
     margin-left: 1rem;
 
@@ -392,7 +412,7 @@ h3{
 }
 .mid h2{
     font-size: 1.1rem;
-    color:#30336b ;
+    color:#808189 ;
    
 
 
@@ -400,6 +420,8 @@ h3{
 .mid p{
     font-size: 0.5rem;
     margin-top: .5rem;
+    color: rgb(77, 75, 75);
+    font-weight: 200;
 }
 
 
@@ -407,7 +429,7 @@ h3{
     
 
 .icon{
-    color: #7ed6df;
+    color: #414343;
     font-size: 1.5rem;
     align-items: center;
 }
@@ -503,7 +525,8 @@ h3{
         display: block;
         width: 0;
         height: 0;
-        background-color: rgba(239, 252, 249, 0.8);
+        background: rgb(5, 5, 5);
+      
         top: 0;
         right: 0;
         position: fixed;
