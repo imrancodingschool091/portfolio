@@ -1,7 +1,7 @@
 let bodycon=document.querySelector("body");
 let boxall = document.querySelectorAll(".white"); // Use ".white" for class selection
 
-
+let banner=document.querySelector(".banner")
 
  function DarkMode () {
  
@@ -9,20 +9,29 @@ let boxall = document.querySelectorAll(".white"); // Use ".white" for class sele
     e.style.backgroundColor = 'black'; 
     e.style.Border='0'
 
+        banner.style.backgroundColor="black"
+
+
   });
   
     
  }
 
 
+
+
+ 
+
  function DayMode(){
 
   boxall.forEach((e) => {
     e.style.backgroundColor = 'white'; 
     e.style.Border='0'
-
+     banner.style.backgroundColor="white"
   });
-    console.log('button is working')
+    
+ 
+
 
  }
 
